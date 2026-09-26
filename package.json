@@ -3,7 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "description": "Atelier MCP — An installable design assistant for AI coding clients",
-  "license": "MIT",
+  "license": "(MIT OR Apache-2.0)",
   "workspaces": [
     "packages/cli",
     "packages/server",

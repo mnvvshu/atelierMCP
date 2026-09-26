@@ -1,11 +1,17 @@
 <p align="center">
+  <img src="./assets/logo.png" alt="Atelier MCP Logo" width="120" height="120" />
+</p>
+
+<p align="center">
   <img src="https://img.shields.io/badge/node-20.19%2B%20%7C%2022.12%2B-brightgreen?style=flat-square" alt="Node 20.19+ or 22.12+" />
   <img src="https://img.shields.io/badge/typescript-strict-blue?style=flat-square" alt="TypeScript Strict" />
   <img src="https://img.shields.io/badge/protocol-MCP%20v2-blueviolet?style=flat-square" alt="MCP v2" />
   <img src="https://img.shields.io/badge/license-MIT-green?style=flat-square" alt="MIT License" />
+  <img src="https://img.shields.io/badge/license-Apache%202.0-blue?style=flat-square" alt="Apache 2.0 License" />
+  <img src="https://img.shields.io/badge/license-Blue%20Oak%201.0-orange?style=flat-square" alt="Blue Oak License" />
 </p>
 
-<h1 align="center">🎨 atelier-mcp</h1>
+<h1 align="center">Atelier-MCP</h1>
 
 <p align="center">
   <strong>Design tools for AI that actually understand your project.</strong><br/>
@@ -224,7 +230,11 @@ npx playwright install chromium
 
 ## License
 
-MIT — see [LICENSE](./LICENSE).
+This project is dual-licensed. Pick whichever works for you:
 
-Third-party dependency licenses (MIT, Apache 2.0, Blue Oak 1.0.0) are
-documented in [THIRD_PARTY_LICENSES.md](./THIRD_PARTY_LICENSES.md).
+- **MIT** — [LICENSE-MIT](./LICENSE-MIT)
+- **Apache 2.0** — [LICENSE-APACHE](./LICENSE-APACHE)
+- **Blue Oak 1.0.0** — [LICENSE-BLUEOAK](./LICENSE-BLUEOAK) (covers bundled dependencies from `glob`)
+
+Third-party dependency licenses are fully documented in
+[THIRD_PARTY_LICENSES.md](./THIRD_PARTY_LICENSES.md).
