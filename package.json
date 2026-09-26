@@ -1,0 +1,36 @@
+{
+  "name": "atelier-mcp",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Atelier MCP — An installable design assistant for AI coding clients",
+  "license": "MIT",
+  "workspaces": [
+    "packages/cli",
+    "packages/server",
+    "packages/recipes",
+    "packages/adapters",
+    "packages/monitor"
+  ],
+  "scripts": {
+    "build": "npm run build --workspaces --if-present",
+    "typecheck": "tsc --build",
+    "lint": "eslint packages/ --ext .ts,.tsx",
+    "test": "vitest run",
+    "dev:monitor": "npm run dev -w packages/monitor --",
+    "dev:server": "npm run dev -w packages/server"
+  },
+  "devDependencies": {
+    "@eslint/js": "^9.39.5",
+    "@types/jsdom": "^21.1.7",
+    "@types/node": "^22.0.0",
+    "eslint": "^9.39.5",
+    "globals": "^17.12.0",
+    "jsdom": "^26.1.0",
+    "typescript": "^5.7.0",
+    "typescript-eslint": "^8.70.1",
+    "vitest": "^4.1.11"
+  },
+  "engines": {
+    "node": "^20.19.0 || >=22.12.0"
+  }
+}
