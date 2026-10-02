@@ -2,6 +2,8 @@
   <img src="./assets/logo.png" alt="Atelier MCP Logo" width="120" height="120" />
 </p>
 
+<h1 align="center">Atelier-MCP</h1>
+
 <p align="center">
   <img src="https://img.shields.io/badge/node-20.19%2B%20%7C%2022.12%2B-brightgreen?style=flat-square" alt="Node 20.19+ or 22.12+" />
   <img src="https://img.shields.io/badge/typescript-strict-blue?style=flat-square" alt="TypeScript Strict" />
@@ -10,8 +12,6 @@
   <img src="https://img.shields.io/badge/license-Apache%202.0-blue?style=flat-square" alt="Apache 2.0 License" />
   <img src="https://img.shields.io/badge/license-Blue%20Oak%201.0-orange?style=flat-square" alt="Blue Oak License" />
 </p>
-
-<h1 align="center">Atelier-MCP</h1>
 
 <p align="center">
   <strong>Design tools for AI that actually understand your project.</strong><br/>
