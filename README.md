@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="./assets/logo.png" alt="Atelier MCP Logo" width="120" height="120" />
+  <img src="./assets/atelier-logo.png" alt="Atelier MCP Logo" width="120" height="120" />
 </p>
 
 <h1 align="center">Atelier-MCP</h1>
